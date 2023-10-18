@@ -1,0 +1,17 @@
+TWO STRINGS - 
+TIME - 
+There are recursive calls if this code actually worked so it would be O(n!) because the time it takes is dependent on the length of the strings, and thus every recursive call. It also
+takes time with each recursive call as well, so that is why we multiply it by each smaller version of n we use (ex n-1 all the way to n=0).
+
+SPACE - 
+An attempt was made to do this recursively with backtracking. I don't think it works but the theory is there. If this code were to work, then the space complexity would be O(n),
+because it makes repeated calls to the call stack until it reaches a return value. The amount of calls it makes depends on the length of the string, so therefore it is O(n) because
+it changes with the input length.
+
+MARS - 
+TIME COMPLEXITY
+Mars uses a single for-loop which makes it O(n).
+
+SPACE COMPLEXITY
+Mars Exploration is done with a for-loop, thus creating no extra places that elements need to be stored. Everything is done in the code which leaves it with constant space 
+complexity, O(1). 
